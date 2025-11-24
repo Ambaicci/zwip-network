@@ -1,4 +1,4 @@
-import React from \"react\";
+import React from "react";
 
 const MVPCTASection = () => {
   return (
@@ -20,8 +20,8 @@ const MVPCTASection = () => {
         background: 'radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%)',
         borderRadius: '50%'
       }} />
-
-      <div className=\"wrap\">
+      
+      <div className="wrap">
         <h2 style={{
           fontSize: '48px',
           fontWeight: '700',
@@ -32,7 +32,7 @@ const MVPCTASection = () => {
         }}>
           See the future in action
         </h2>
-
+        
         <p style={{
           fontSize: '24px',
           lineHeight: '1.41667',
@@ -52,15 +52,15 @@ const MVPCTASection = () => {
           alignItems: 'center',
           flexWrap: 'wrap'
         }}>
-          <a
-            href=\"https://zwip-web-final.vercel.app\"
-            target=\"_blank\"
-            rel=\"noopener noreferrer\"
-            className=\"btn cta\"
+          <a 
+            href="https://zwip-web-final.vercel.app" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn cta"
             style={{
               background: 'var(--white)',
               color: 'var(--emerald)',
-              padding: 'var(--space-4) var(--space-6)',      
+              padding: 'var(--space-4) var(--space-6)',
               fontSize: '18px',
               fontWeight: '600',
               border: 'none'
@@ -68,15 +68,15 @@ const MVPCTASection = () => {
           >
             Try Live MVP
           </a>
-
-          <a
-            href=\"/waitlist\"
-            className=\"btn\"
+          
+          <a 
+            href="/waitlist" 
+            className="btn"
             style={{
               background: 'transparent',
               color: 'var(--white)',
-              border: '2px solid rgba(255, 255, 255, 0.3)',  
-              padding: 'var(--space-4) var(--space-6)',      
+              border: '2px solid rgba(255, 255, 255, 0.3)',
+              padding: 'var(--space-4) var(--space-6)',
               fontSize: '18px',
               fontWeight: '500'
             }}
@@ -103,3 +103,4 @@ const MVPCTASection = () => {
 };
 
 export default MVPCTASection;
+
